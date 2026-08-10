@@ -240,9 +240,19 @@ em, .accent-i { font-style: italic; }
   color: var(--red);
 }
 .sec-green .quote blockquote { color: var(--white); }
+.quote .avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 26px auto 0;
+  border: 1px solid rgba(255, 226, 214, 0.4);
+}
+.sec-peach .quote .avatar { border-color: rgba(48, 54, 54, 0.2); }
 .quote cite {
   display: block;
-  margin-top: 22px;
+  margin-top: 14px;
   font-family: var(--text);
   font-style: normal;
   font-size: 16px;
